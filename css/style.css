@@ -391,3 +391,96 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     color: #666;
     line-height: 1.4em;
 }
+
+.footer {
+    background: #322F2F url(../img/footer_bg.png) repeat-x top scroll;
+    margin-top: 70px;
+    height: 180px;
+    position: relative;
+}
+
+.footer .centered {
+    height: 40px;
+    width: 139px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer .pike {
+    background: url(../img/footer_pike.png) no-repeat center scroll;
+    width: 139px;
+    height: 40px;
+    position: absolute;
+    top: -34px;
+}
+
+.footer .about {
+    width: 40%;
+    float: left;
+    font-size: 0.8em;
+    margin: 0 3% 0 3%;
+}
+
+.footer .about h5 {
+    color:#FFF;
+    text-transform: uppercase;
+    margin-bottom: 1.3em;
+}
+
+.footer .about p {
+    color: #999;
+    line-height: 1.5em;
+}
+
+.footer .footer-nav {
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+    font-size: 0.8em;
+}
+
+.footer .footer-nav .column span {
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.footer .footer-nav ul li {
+    list-style: none;
+    color: #666;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 0.5em;
+}
+
+.footer .footer-nav ul li:before {
+    content: "\2666";
+    display: block;
+    color: #666;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footer .footer-nav li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer .footer-nav li a:hover,
+.footer .footer-nav li a:active,
+.footer .footer-nav li a:focus {
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    display: block;
+    width: 95%;
+    margin: 10px auto 0 auto;
+    padding: 10px 0 0 0;
+    border-top: 1px solid #666;
+    clear: both;
+    font-size: 0.8em;
+    color: #CCC;
+}
