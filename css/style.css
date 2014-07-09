@@ -357,6 +357,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 .slider .slides {
     height: 278px;
     width: 3440px;
+    margin-left: 0;
 }
 
 .slider .slide {
