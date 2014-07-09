@@ -86,3 +86,117 @@ input, select {
 }
 
 /* Layout Styles */
+body {
+    background: url(../img/bg.gif) scroll;
+    font-family: Arial;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 20px 0 0 0;
+}
+
+.header .logo,
+.header .top-nav {
+    width: 45%;
+}
+
+.header .logo {
+    float: left;
+}
+
+.header .top-nav {
+   float: right;
+}
+
+.header .top-nav ul li {
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #000;
+    margin: 0 5px 0 0;
+    padding: 0 10px 0 0;
+}
+
+.header .top-nav ul li:last-child {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header .top-nav li a {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.header .top-nav li a:hover,
+.header .top-nav li a:active,
+.header .top-nav li a:focus {
+    text-decoration: underline;
+}
+
+.header .top-nav .search-form {
+    margin: 10px 0 0 0;
+    padding: 0;
+    position: relative;
+}
+
+.header .top-nav .search-form .search-box {
+    background: #EFEFEF;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    width: 383px;
+    height: 28px;
+}
+
+.header .top-nav .search-form .search-submit {
+    background: #5a5a5a; /* Old browsers */
+    background: -moz-linear-gradient(top, #5a5a5a 0%, #101010 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a5a5a), color-stop(100%,#101010)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #5a5a5a 0%,#101010 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #5a5a5a 0%,#101010 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #5a5a5a 0%,#101010 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #5a5a5a 0%,#101010 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#101010',GradientType=0 ); /* IE6-9 */
+
+    border-radius: 5px;
+    height: 28px;
+    color: #CCC;
+    border: 0;
+    position: absolute;
+    right: 48px;
+    top: 2px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header .top-nav .search-form .search-submit:hover,
+.header .top-nav .search-form .search-submit:active,
+.header .top-nav .search-form .search-submit:focus {
+    background: #101010; /* Old browsers */
+    background: -moz-linear-gradient(top, #101010 0%, #5a5a5a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#101010), color-stop(100%,#5a5a5a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #101010 0%,#5a5a5a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #101010 0%,#5a5a5a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #101010 0%,#5a5a5a 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #101010 0%,#5a5a5a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', endColorstr='#5a5a5a',GradientType=0 ); /* IE6-9 */
+}
