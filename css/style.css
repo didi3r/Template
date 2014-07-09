@@ -126,7 +126,7 @@ ul li {
 
 .header .logo,
 .header .top-nav {
-    width: 45%;
+    width: 40%;
 }
 
 .header .logo {
@@ -175,7 +175,7 @@ ul li {
     border: 1px solid #CCC;
     border-radius: 5px;
     width: 383px;
-    height: 28px;
+    height: 34px;
 }
 
 .header .top-nav .search-form .search-submit {
@@ -193,8 +193,8 @@ ul li {
     color: #CCC;
     border: 0;
     position: absolute;
-    right: 48px;
-    top: 2px;
+    right: 2px;
+    top: 3px;
     font-size: 0.9em;
     text-transform: uppercase;
     cursor: pointer;
