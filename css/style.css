@@ -243,16 +243,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     position: relative;
 }
 
+.header .nav .centered {
+    height: 125px;
+    width: 148px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -125px;
+}
+
 .header .nav .bg {
     background: url(../img/nav_bg.png) center no-repeat;
     height: 125px;
     width: 148px;
-    margin: 0 auto;
     position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
     top: -40px;
 }
 
