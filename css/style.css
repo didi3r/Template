@@ -103,6 +103,18 @@ ul li {
     list-style: square;
 }
 
+a {
+    color: #990000;
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: b30909;
+    text-decoration: underline;
+}
+
 
 .group:before,
 .group:after {
@@ -381,12 +393,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 .body .box .title {
     background: #312E2E;
     margin: 0 0 20px 0;
-    padding: 10px 0 10px 10px;
+    padding: 12px 0 12px 10px;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: #CCC;
-    font-size: 1.4em;
+    font-size: 1.9em;
     font-weight: normal;
 }
 
@@ -461,6 +473,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 /* Section */
 .page {
     width: 100%;
+}
+
+.page .container {
+    width: 885px;
 }
 
 .page .section-title {
