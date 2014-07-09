@@ -623,3 +623,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     font-size: 0.8em;
     color: #CCC;
 }
+
+ /* IE Fixes */
+.lt-ie9 .last-column {
+    margin-right: 0;
+}
+
+.lt-ie9 .page .columns .column.last-column {
+    margin-right: 0;
+}
+
+.lt-ie9 .header .nav,
+.lt-ie9 .header .top-nav .search-form .search-submit {
+    background: url(../img/ie_nav_bg.png) repeat-x scroll;
+    filter: none;
+}
