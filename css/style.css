@@ -86,9 +86,21 @@ input, select {
 }
 
 /* Layout Styles */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: url(../img/bg.gif) scroll;
     font-family: Arial;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul li {
+    list-style: square;
 }
 
 .group:before,
@@ -279,4 +291,103 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 .header .nav ul li a:focus {
     color: #EEE;
     text-decoration: underline;
+}
+
+.body.home {
+    margin-top: 60px;
+}
+
+.body .slider {
+    height: 300px;
+    width: 100%;
+}
+
+.box {
+    background: #FFF;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+}
+
+.box .content {
+    padding: 15px 20px;
+}
+
+.body .box .title {
+    background: #312E2E;
+    margin: 0 0 20px 0;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #CCC;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+.home .box {
+    margin-top: 20px;
+}
+
+.home .main.box {
+    font-family: "Trebuchet MS", Arial;
+    font-size: 0.8em;
+    line-height: 1.8em;
+    color: #333;
+}
+
+.box h3,
+.box h4 {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.box h3 {
+    font-size: 1.5em;
+}
+
+.box h4 {
+    font-size: 1.2em;
+}
+
+.home .main.box ul {
+    margin-left: 30px;
+}
+
+.home .columns {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.columns .column {
+    float: left;
+}
+
+.columns .box.column {
+    margin-top: 0;
+}
+
+.columns .three-column {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.columns .three-column:last-child {
+    margin: 0;
+}
+
+.columns .column .content {
+    padding: 5px 15px;
+}
+
+.columns .three-column h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #666;
+    padding: 10px 0 10px 15px;
+}
+
+.columns .three-column .content {
+    font-size: 0.8em;
+    color: #666;
+    line-height: 1.4em;
 }
