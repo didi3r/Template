@@ -394,7 +394,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     margin-top: 20px;
 }
 
-.home .main.box {
+.main.box {
     font-family: "Trebuchet MS", Arial;
     font-size: 0.8em;
     line-height: 1.8em;
@@ -415,7 +415,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     font-size: 1.2em;
 }
 
-.home .main.box ul {
+.main.box ul {
     margin-left: 30px;
 }
 
@@ -489,6 +489,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     background: transparent url(../img/about_title.png) center no-repeat scroll;
     width: 67px;
     height: 85px;
+}
+
+.page .columns .column {
+    margin-right: 3%;
+}
+
+.page .columns .column:last-child {
+    margin-right: 0;
+}
+
+.page .left-column {
+    width: 67%;
+}
+
+.page .right-column {
+    width: 30%;
+}
+
+.sidebar.box h3 {
+    color: #666;
 }
 
 /* Footer */
