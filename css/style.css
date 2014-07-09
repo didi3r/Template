@@ -228,14 +228,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 }
 
 .header .nav {
-    background: #5a5a5a; /* Old browsers */
+    background: url(../img/ie_nav_bg.png) repeat-x scroll;
     background: -moz-linear-gradient(top, #666666 10%, #030303 88%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#666666), color-stop(88%,#030303)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #666666 10%,#030303 88%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(top, #666666 10%,#030303 88%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #666666 10%,#030303 88%); /* IE10+ */
     background: linear-gradient(to bottom, #666666 10%,#030303 88%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#101010',GradientType=0 ); /* IE6-9 */
 
     margin-top: 20px;
     height: 45px;
@@ -665,4 +664,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 .lt-ie8 .header .nav ul li {
     display: block;
     float: left;
+}
+
+.lt-ie8 .header .top-nav .search-form .search-submit {
+    top: 25px;
 }
