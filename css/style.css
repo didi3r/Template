@@ -293,6 +293,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     text-decoration: underline;
 }
 
+
+.body.container {
+    width: 885px;
+}
+
+
 .body.home {
     margin-top: 60px;
 }
@@ -300,6 +306,63 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
 .body .slider {
     height: 300px;
     width: 100%;
+    position: relative;
+}
+
+.slider .prev,
+.slider .next {
+    background: #322F2F;
+    width: 40px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 130px;
+}
+
+.slider .prev {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    left: -40px;
+}
+
+.slider .next {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    right: -40px;
+}
+
+.slider .prev a,
+.slider .next a {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: #FFF;
+    text-decoration: none;
+    line-height: 35px;
+    width: 35px;
+    text-align: center;
+    display: block;
+}
+
+.slider .prev a {
+    padding-left: 5px;
+}
+
+.slider .slider-wrapper {
+    height: 278px;
+    width: 860px;
+    margin: 10px auto 0 auto;
+    overflow: hidden;
+}
+
+.slider .slides {
+    height: 278px;
+    width: 3440px;
+}
+
+.slider .slide {
+    height: 278px;
+    width: 860px;
+    float: left;
 }
 
 .box {
