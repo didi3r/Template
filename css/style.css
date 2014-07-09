@@ -638,3 +638,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#101010', end
     background: url(../img/ie_nav_bg.png) repeat-x scroll;
     filter: none;
 }
+
+.lt-ie8 .body .box .title {
+    width: 97%;
+    padding-left: 3%;
+}
+
+.lt-ie8 .columns .three-column h2 {
+    width: 95%;
+    padding-left: 5%;
+}
+
+.lt-ie8 .columns .three-column {
+    margin-right: 3%;
+}
+
+.lt-ie8 .page .columns .column {
+    margin-right: 2%;
+}
+
+.lt-ie8 .header .top-nav ul li {
+    display: block;
+    float: left;
+}
+
+.lt-ie8 .header .nav ul li {
+    display: block;
+    float: left;
+}
